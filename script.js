@@ -109,5 +109,5 @@ const lastMonth = lastHoliday.getMonth() + 1;
 console.log(`${firstDay}/${firstMonth}/${currentYear}`);
 console.log(`${lastDay}/${lastMonth}/${currentYear}`);
 
-const randomHoliday = holidays[Math.floor(Math.random() * 10)];
+const randomHoliday = holidays[Math.floor(Math.random() * 9)];
 console.log(randomHoliday);
